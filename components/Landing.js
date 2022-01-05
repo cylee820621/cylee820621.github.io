@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react';
-
 function Landing() {
   return (
-    <div id='home' className='flex min-h-screen justify-center items-center'>
-      <div className='flex-col m-5'>
-        <h1 className='font-bold text-5xl'>Chih-Yu</h1>
-        <h1 className='font-bold text-5xl'>Lee</h1>
+    <div id='home' className='flex justify-center items-center'>
+      <video className='' autoPlay loop muted>
+        <source src='/loop.mp4' type='video/mp4' />
+      </video>
+
+      <div className='absolute flex-col m-5 '>
+        <h1 className='font-bold text-5xl text-white'>Chih-Yu</h1>
+        <h1 className='font-bold text-5xl text-white'>Lee</h1>
       </div>
     </div>
   );

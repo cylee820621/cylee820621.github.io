@@ -7,6 +7,7 @@ import Tools from '../components/Tools';
 import About from '../components/About';
 import Landing from '../components/Landing';
 import Projects from '../components/Projects';
+import Navbar from '../components/Navbar';
 
 const TOOLS_DATA = [
   {
@@ -71,6 +72,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Layout>
+        <div className='fixed top-0 w-full z-40'>
+          <Navbar />
+        </div>
         <Landing />
         <About />
         <Projects />
