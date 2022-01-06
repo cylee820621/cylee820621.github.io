@@ -11,59 +11,60 @@ import Navbar from '../components/Navbar';
 
 const TOOLS_DATA = [
   {
-    image: 'https://img.icons8.com/color/96/000000/visual-studio-code-2019.png',
+    imageUrl:
+      'https://img.icons8.com/color/96/000000/visual-studio-code-2019.png',
     name: 'VScode'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/git.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/git.png',
     name: 'Git'
   },
   {
-    image: 'https://img.icons8.com/ios-glyphs/90/000000/github.png',
+    imageUrl: 'https://img.icons8.com/ios-glyphs/90/000000/github.png',
     name: 'Github'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/npm.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/npm.png',
     name: 'NPM'
   },
 
   {
-    image: 'https://img.icons8.com/color/96/000000/dart.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/dart.png',
     name: 'Dart'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/python--v1.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/python--v1.png',
     name: 'Python'
   }
 ];
 
 const SKILL_DATA = [
   {
-    image: 'https://img.icons8.com/color/96/000000/javascript--v1.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/javascript--v1.png',
     name: 'JavaScript'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/react-native.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/react-native.png',
     name: 'React.js'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/html-5--v1.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/html-5--v1.png',
     name: 'HTML5'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/css3.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/css3.png',
     name: 'CSS3'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/flutter.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/flutter.png',
     name: 'Flutter'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/dart.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/dart.png',
     name: 'Dart'
   },
   {
-    image: 'https://img.icons8.com/color/96/000000/python--v1.png',
+    imageUrl: 'https://img.icons8.com/color/96/000000/python--v1.png',
     name: 'Python'
   }
 ];

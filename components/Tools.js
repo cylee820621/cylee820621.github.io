@@ -8,7 +8,7 @@ function Tools({ tools }) {
         <p>My weapons of choice to help tackle any project.</p>
         <div className='grid  gap-16 grid-cols-2 md:grid-cols-4 m-10'>
           {tools.map((item, index) => (
-            <Stack key={index} image={item.image} name={item.name} />
+            <Stack key={index} imageUrl={item.imageUrl} name={item.name} />
           ))}
         </div>
       </div>

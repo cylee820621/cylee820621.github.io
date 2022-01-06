@@ -14,7 +14,7 @@ function Skills({ items }) {
         </p>
         <div className='grid  gap-16 grid-cols-2 md:grid-cols-4 m-10'>
           {items.map((item, index) => (
-            <Stack key={index} image={item.image} name={item.name} />
+            <Stack key={index} imageUrl={item.imageUrl} name={item.name} />
           ))}
         </div>
       </div>

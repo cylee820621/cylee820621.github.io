@@ -8,7 +8,7 @@ function About() {
     >
       <div className='flex flex-wrap'>
         <div className='w-96 mb-5'>
-          <img className='' src='/me.png' alt='' />
+          <Image src='/me.png' alt='' width={300} height={300} />
         </div>
 
         <div className='flex-1 ml-10 max-w-80'>
