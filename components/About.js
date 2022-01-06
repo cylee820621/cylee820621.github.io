@@ -4,16 +4,22 @@ function About() {
   return (
     <div
       id='about'
-      className='flex  justify-center items-center min-h-screen p-10'
+      className='flex justify-center items-center p-5 min-h-screen '
     >
-      <div className='flex flex-wrap'>
-        <div className='w-96 mb-5'>
-          <Image src='/me.png' alt='' width={300} height={300} />
+      <div className='flex flex-wrap justify-center'>
+        <div className='w-96 mb-5 shadow-2xl'>
+          <Image
+            src='/me.png'
+            alt='me'
+            width={300}
+            height={300}
+            layout='responsive'
+          />
         </div>
 
-        <div className='flex-1 ml-10 max-w-80'>
-          <h1 className='text-2xl w-80 font-extrabold my-3'>
-            Hello! I'm Chih Yu Lee,
+        <div className=' ml-10 max-w-md'>
+          <h1 className='text-2xl font-extrabold mb-3'>
+            Hello! I'm Chih-Yu Lee,
           </h1>
           <h1>A Full Stack Developer From Jersey city, NJ.</h1>
           <div className='max-w-md mt-5 '>
