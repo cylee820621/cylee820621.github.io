@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       id='about'
-      className='flex justify-center items-center p-5 min-h-screen '
+      className='flex justify-center items-center p-5 min-h-screen'
     >
       <div className='flex flex-wrap justify-center'>
         <div className='w-96 mb-5 shadow-2xl'>
@@ -22,7 +22,7 @@ function About() {
             Hello! I'm Chih-Yu Lee,
           </h1>
           <h1>A Full Stack Developer From Jersey city, NJ.</h1>
-          <div className='max-w-md mt-5 '>
+          <div className='max-w-md mt-5'>
             I love learning new things, and I don't set boundaries on myself.
             Finding problems and coming up with solutions are deeply rooted in
             my mind. I came to the United States from Taiwan 3 years ago. At
