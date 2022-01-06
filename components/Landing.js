@@ -5,9 +5,15 @@ function Landing() {
         <source src='/loop.mp4' type='video/mp4' />
       </video>
 
-      <div className='absolute flex-col m-5 '>
-        <h1 className='font-bold text-5xl text-white'>Chih-Yu</h1>
-        <h1 className='font-bold text-5xl text-white'>Lee</h1>
+      <div className='absolute flex-col m-5 text-white'>
+        <h1 className='font-bold text-5xl '>Chih-Yu</h1>
+        <h1 className='font-bold text-5xl '>Lee</h1>
+        <a
+          className='text-xl hover:underline cursor-pointer'
+          href='https://github.com/cylee820621/resume/blob/main/CY.L_resume.pdf'
+        >
+          [Resume]
+        </a>
       </div>
     </div>
   );
