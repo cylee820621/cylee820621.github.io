@@ -10,7 +10,7 @@ function Landing() {
         <h1 className='font-bold text-5xl'>Lee</h1>
         <a
           className='text-xl hover:underline cursor-pointer'
-          href='https://github.com/cylee820621/resume/blob/main/CY.L_resume.pdf'
+          href='https://github.com/cylee820621/resume/blob/main/CY.L_resume%20(updated).pdf'
         >
           [Resume]
         </a>
