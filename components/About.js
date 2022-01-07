@@ -2,10 +2,7 @@ import Image from 'next/image';
 
 function About() {
   return (
-    <div
-      id='about'
-      className='flex justify-center items-center p-5 min-h-screen'
-    >
+    <div id='about' className='flex justify-center items-center min-h-screen'>
       <div className='flex flex-wrap justify-center'>
         <div className='mb-5'>
           <Image

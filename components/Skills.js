@@ -12,7 +12,7 @@ function Skills({ items }) {
           Languages and Technologies that I have learned and applied to my
           projects
         </p>
-        <div className='grid  gap-16 grid-cols-2 md:grid-cols-4 m-10'>
+        <div className='grid gap-16 grid-cols-2 md:grid-cols-4 m-10'>
           {items.map((item, index) => (
             <Stack key={index} imageUrl={item.imageUrl} name={item.name} />
           ))}

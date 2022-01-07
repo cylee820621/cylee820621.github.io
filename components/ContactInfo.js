@@ -1,8 +1,8 @@
 export default function ContactInfo() {
   return (
-    <div className=' max-w-lg px-5'>
-      <h1 className='font-extrabold text-5xl my-3'>Contact info</h1>
-      <p className='text-gray-500'>
+    <div className='max-w-md px-5'>
+      <h1 className='font-extrabold text-5xl'>Contact info</h1>
+      <p className='text-gray-500 mt-3'>
         Feel free to contact me for career prospects, business services, and
         other professional inquiries!
       </p>
