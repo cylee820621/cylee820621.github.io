@@ -8,8 +8,8 @@ function Projects() {
       className='flex flex-col justify-center items-center w-screen  md:min-h-screen'
     >
       <h1 className='font-bold text-5xl m-5'>Projects</h1>
-      <div className='flex w-4/5 justify-center cursor-pointer hover:scale-105 transition duration-700'>
-        <div className=' w-60 relative'>
+      <div className='flex w-4/5 justify-center'>
+        <div className='w-60 relative cursor-pointer hover:scale-105 transition duration-700'>
           <Link href='https://github.com/cylee820621/getphoto-flutter-app'>
             <Image
               src='/home.png'
@@ -20,7 +20,7 @@ function Projects() {
             />
           </Link>
         </div>
-        <div className=' w-60 relative'>
+        <div className='w-60 relative cursor-pointer hover:scale-105 transition duration-700'>
           <Link href='https://github.com/cylee820621/getphoto-flutter-app'>
             <Image
               src='/select.png'
@@ -31,7 +31,7 @@ function Projects() {
             />
           </Link>
         </div>
-        <div className='  w-60 relative'>
+        <div className='w-60 relative cursor-pointer hover:scale-105 transition duration-700'>
           <Link href='https://github.com/cylee820621/getphoto-flutter-app'>
             <Image
               src='/received_request.png'
