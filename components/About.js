@@ -18,7 +18,7 @@ function About() {
           <h1 className='text-2xl font-extrabold mb-3'>
             Hello! I'm Chih-Yu Lee,
           </h1>
-          <h1>A Full Stack Developer From Jersey city, NJ.</h1>
+          <h1>A Frontend & Mobile developer From Jersey city, NJ.</h1>
           <div className='max-w-md mt-5'>
             I love learning new things, and I don't set boundaries on myself.
             Finding problems and coming up with solutions are deeply rooted in
