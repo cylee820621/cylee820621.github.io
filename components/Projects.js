@@ -21,22 +21,26 @@ function Projects() {
           </Link>
         </div>
         <div className=' w-60 relative'>
-          <Image
-            src='/select.png'
-            alt=''
-            width={1530}
-            height={2892}
-            layout='responsive'
-          />
+          <Link href='https://github.com/cylee820621/getphoto-flutter-app'>
+            <Image
+              src='/select.png'
+              alt=''
+              width={1530}
+              height={2892}
+              layout='responsive'
+            />
+          </Link>
         </div>
         <div className='  w-60 relative'>
-          <Image
-            src='/received_request.png'
-            width={1530}
-            height={2892}
-            alt=''
-            layout='responsive'
-          />
+          <Link href='https://github.com/cylee820621/getphoto-flutter-app'>
+            <Image
+              src='/received_request.png'
+              width={1530}
+              height={2892}
+              alt=''
+              layout='responsive'
+            />
+          </Link>
         </div>
       </div>
     </div>
