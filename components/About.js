@@ -18,7 +18,7 @@ function About() {
           />
         </div>
 
-        <div className='w-60 sm:w-1/2'>
+        <div className='w-80 sm:w-1/2'>
           <h1 className='text-2xl font-extrabold mb-3'>
             Hello! I'm Chih-Yu Lee,
           </h1>
