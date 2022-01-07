@@ -7,13 +7,13 @@ function About() {
       className='flex justify-center items-center p-5 min-h-screen'
     >
       <div className='flex flex-wrap justify-center'>
-        <div className='w-96 mb-5 shadow-2xl'>
+        <div className='mb-5'>
           <Image
             src='/me.png'
             alt='me'
-            width={300}
-            height={300}
-            layout='responsive'
+            width={176}
+            height={176}
+            className='rounded-full'
           />
         </div>
 

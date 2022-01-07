@@ -1,7 +1,7 @@
 function Landing() {
   return (
     <div id='home' className='flex justify-center items-center'>
-      <video className='' autoPlay loop muted>
+      <video playsinline autoPlay loop muted>
         <source src='/loop.mp4' type='video/mp4' />
       </video>
 
